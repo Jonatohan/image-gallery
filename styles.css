@@ -1,0 +1,52 @@
+
+*,
+*::before,
+*::after {
+     margin:0;
+     padding:0;
+     box-sizing:border-box;
+}
+
+
+
+
+body {
+     background-color: #494343;
+     display:flex;
+     justify-content: center;
+     align-items:center;
+     min-height: 100vh;
+     
+ }
+ 
+ h1 {
+     color: #333;
+ }
+ 
+ .gallery{
+     width: 80%;
+     margin: 5rem;
+     display:grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     grid-auto-rows: minmax(300px, 1fr);
+     box-shadow: 0 0 25px #00ffbb, 0 0 22px #00ffbb;
+
+ }
+ .gallery > img {
+     display: block;
+     max-width: 100%;
+     padding: 16px;
+     height: 100%;
+     object-fit: cover;
+     border-radius: 18px ;
+     transition: 0.6 ease;
+
+ }
+ 
+
+ 
+ .gallery img:hover {
+ scale: 0.9;
+ box-shadow: 10px 25px 60px rgba(68, 77, 136, 0.3);
+ }
+ 

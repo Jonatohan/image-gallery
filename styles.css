@@ -7,7 +7,7 @@
      box-sizing:border-box;
 }
 
-
+  
 
 
 body {
@@ -18,9 +18,19 @@ body {
      min-height: 100vh;
      
  }
- 
+ .text{
+    height: 100%;
+    width: 10%;
+    display:list-item;
+    position: relative;
+    font-size: x-large;
+    text-shadow: 0 0 20px #00ffbb, 0 0 20px #00ffbb;
+    
+ }
  h1 {
-     color: #333;
+     color: #fffafa;
+     font-family:"rubik broken fax";
+     
  }
  
  .gallery{
